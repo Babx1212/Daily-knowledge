@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 10,
+    "title": "Jour 10 — 10 capsules"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "La Révolution française en bref (1789–1799)",
+      "summary": "La Révolution française s’ouvre en 1789 avec la convocation des États généraux et la prise de la Bastille. Elle transforme la monarchie absolue en un régime fondé sur la souveraineté nationale. Après une phase libérale (1789–1791), la période se radicalise : chute de la monarchie (1792), Convention et Terreur (1793–1794), puis Directoire (1795–1799). Elle diffuse des principes durables (Déclaration des droits, égalité civile) et bouleverse l’Europe. L’ascension de Napoléon Bonaparte met fin au Directoire en 1799 et exporte certaines réformes.",
+      "points": [
+        "1789 : États généraux, Bastille, droits de l’homme.",
+        "1792–1794 : République, Terreur, exécution de Louis XVI.",
+        "1799 : Bonaparte prend le pouvoir (18 Brumaire)."
+      ],
+      "quiz": {
+        "question": "En quelle année la Bastille est-elle prise ?",
+        "choices": [
+          "1789",
+          "1792",
+          "1793",
+          "1815"
+        ],
+        "answer": 0,
+        "explanation": "La prise de la Bastille a lieu le 14 juillet 1789."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Le cycle de l’eau",
+      "summary": "Circulation continue de l’eau entre océan, atmosphère et continents : évaporation/évapotranspiration, condensation en nuages, précipitations, ruissellement, infiltration, retour aux océans. Il redistribue la chaleur et alimente les écosystèmes.",
+      "points": [
+        "Évaporation/évapotranspiration.",
+        "Condensation, précipitations.",
+        "Ruissellement, infiltration, retour aux océans."
+      ],
+      "quiz": {
+        "question": "Quelle étape forme les nuages ?",
+        "choices": [
+          "La condensation",
+          "La sublimation",
+          "L’infiltration",
+          "La combustion"
+        ],
+        "answer": 0,
+        "explanation": "Les nuages naissent de la condensation de la vapeur d’eau."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Mitochondries : centrales énergétiques",
+      "summary": "Organites eucaryotes produisant l’ATP via la respiration cellulaire. Membrane interne plissée (crêtes), chaîne de transport d’électrons et ATP synthase. ADN propre d’origine endosymbiotique.",
+      "points": [
+        "Production d’ATP.",
+        "Crêtes + ATP synthase.",
+        "ADN mitochondrial, endosymbiose."
+      ],
+      "quiz": {
+        "question": "Rôle principal d’une mitochondrie ?",
+        "choices": [
+          "Produire de l’ATP",
+          "Stocker le glycogène",
+          "Photosynthèse",
+          "Transcrire l’ADN nucléaire"
+        ],
+        "answer": 0,
+        "explanation": "Synthèse d’ATP via la respiration cellulaire."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Ionique vs covalente",
+      "summary": "Ionique : transfert d’électrons → ions (NaCl). Covalente : partage d’électrons (H2, CH4). Les propriétés (solubilité, fusion, conductivité) en découlent.",
+      "points": [
+        "Ionique : ions et attraction électrostatique.",
+        "Covalente : partage d’électrons.",
+        "Exemples : NaCl vs H₂/CH₄."
+      ],
+      "quiz": {
+        "question": "Quel composé est ionique ?",
+        "choices": [
+          "NaCl",
+          "H₂",
+          "O₂",
+          "CH₄"
+        ],
+        "answer": 0,
+        "explanation": "NaCl = transfert d’électrons (Na⁺/Cl⁻)."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Principe d’inertie",
+      "summary": "Un corps conserve son état de repos ou de mouvement rectiligne uniforme si la force résultante est nulle. Les frottements masquent souvent cette réalité au quotidien.",
+      "points": [
+        "Force nette nulle ⇒ accélération nulle.",
+        "Repos ou MRU.",
+        "Frottements trompent l’intuition."
+      ],
+      "quiz": {
+        "question": "Sans force nette, le mouvement est…",
+        "choices": [
+          "Rectiligne uniforme",
+          "À accélération constante",
+          "Arrêt immédiat",
+          "Circulaire uniforme"
+        ],
+        "answer": 0,
+        "explanation": "Pas d’accélération."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Perspective linéaire (Renaissance)",
+      "summary": "Brunelleschi démontre la perspective ; Alberti formalise les règles (1435). Point de fuite et lignes de fuite donnent l’illusion de profondeur.",
+      "points": [
+        "Brunelleschi : démo.",
+        "Alberti : théorie (1435).",
+        "Point/lignes de fuite."
+      ],
+      "quiz": {
+        "question": "Qui démontre expérimentalement la perspective ?",
+        "choices": [
+          "Filippo Brunelleschi",
+          "Leon Battista Alberti",
+          "Léonard de Vinci",
+          "Michel-Ange"
+        ],
+        "answer": 0,
+        "explanation": "Brunelleschi est associé aux premières démonstrations."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Alexandrin (12 syllabes)",
+      "summary": "Vers de 12 syllabes, souvent césure 6/6. Dominant dans le classicisme, puis modernisé (Hugo, vers libre).",
+      "points": [
+        "12 syllabes, césure.",
+        "Classique → moderne.",
+        "E muet, diérèse/synérèse."
+      ],
+      "quiz": {
+        "question": "Combien de syllabes dans un alexandrin ?",
+        "choices": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Par définition, 12 syllabes."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Primauté et récence",
+      "summary": "On retient mieux le début (primauté) et la fin (récence) d’une liste : encodage profond vs disponibilité en mémoire courte.",
+      "points": [
+        "Début + fin mieux retenus.",
+        "Primauté vs récence.",
+        "Implications pour les révisions."
+      ],
+      "quiz": {
+        "question": "Nom de la tendance ?",
+        "choices": [
+          "Effet de primauté et de récence",
+          "Effet de halo",
+          "Biais de confirmation",
+          "Courbe de l’oubli"
+        ],
+        "answer": 0,
+        "explanation": "Deux effets distincts mais complémentaires."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "HTTP vs HTTPS",
+      "summary": "HTTPS = HTTP + TLS (chiffrement, intégrité, authentification). C’est la norme pour empêcher l’interception ou l’altération.",
+      "points": [
+        "Chiffrement TLS.",
+        "Intégrité + authentification.",
+        "Valeur par défaut du web."
+      ],
+      "quiz": {
+        "question": "Qu’apporte HTTPS ?",
+        "choices": [
+          "Chiffrement via TLS",
+          "Pages plus rapides",
+          "Nouveau HTML",
+          "Rien"
+        ],
+        "answer": 0,
+        "explanation": "TLS sécurise la connexion."
+      }
+    },
+    {
+      "category": "Culture insolite",
+      "title": "Pourquoi « sandwich » ?",
+      "summary": "Nom venant du 4ᵉ comte de Sandwich (XVIIIe). Pratique pour manger sans couverts ; le terme s’est diffusé.",
+      "points": [
+        "Comte de Sandwich.",
+        "Praticité.",
+        "Mot internationalisé."
+      ],
+      "quiz": {
+        "question": "Pourquoi ce nom ?",
+        "choices": [
+          "Comte de Sandwich",
+          "Port de Sandwich",
+          "Acronyme",
+          "Boulanger parisien"
+        ],
+        "answer": 0,
+        "explanation": "John Montagu, comte de Sandwich."
+      }
+    }
+  ]
+}
