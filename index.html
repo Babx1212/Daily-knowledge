@@ -1,1 +1,181 @@
-<!-- index.html du projet -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Culture Quotidienne — 10 fiches + quiz</title>
+<meta name="description" content="Apprends 10 sujets de culture générale par jour, puis teste-toi avec un quiz. Tout tient en fichiers plats au même niveau.">
+<style>
+  :root{--bg:#0f172a;--panel:#0d1426;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--blue:#1d4ed8;--blue2:#1e40af;--accent:#60a5fa}
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:linear-gradient(120deg,#0b1222,#0f172a 30%,#0b1222);color:var(--text)}
+  header{position:sticky;top:0;background:#0f172ab3;backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:16px 0;z-index:20}
+  .container{max-width:980px;margin:0 auto;padding:0 16px} h1{margin:0;font-size:26px}
+  .sub{color:var(--muted);font-size:14px;margin-top:4px} .pill{display:inline-block;border:1px solid var(--border);padding:4px 10px;border-radius:999px;font-size:12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:20px 0 24px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:12px;min-height:200px}
+  .cat{font-size:12px;color:var(--accent);text-transform:uppercase;letter-spacing:.6px} .title{font-size:18px;font-weight:600;margin:4px 0}
+  .muted{color:var(--muted)} .points{margin:8px 0 0;padding-left:18px;color:var(--muted)}
+  .btn{background:var(--blue);border:1px solid var(--blue2);color:#fff;padding:10px 14px;border-radius:12px;cursor:pointer}
+  .btn2{background:#102038;border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:12px;cursor:pointer}
+  .quiz{display:none;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px}
+  .q{margin-bottom:16px} .badge{border:1px solid var(--border);padding:2px 8px;border-radius:999px;font-size:12px}
+  .divider{height:1px;background:var(--border);margin:12px 0} footer{color:var(--muted);font-size:12px;padding:18px 0 40px} code{background:#0a0f1d;border:1px solid var(--border);padding:2px 6px;border-radius:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Culture Quotidienne — version sans dossiers</h1>
+    <div class="sub">Les données sont dans <code>day001.json</code>, <code>day002.json</code>… (à la racine).</div>
+  </div>
+</header>
+
+<main class="container">
+  <section style="margin-top:16px;">
+    <span class="pill" id="dayLabel">Jour —</span>
+    <div class="sub" style="margin-top:8px;">Date : <span id="today"></span> • <span class="badge" id="topicsCount">— sujets</span></div>
+    <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn" id="startQuiz">🎯 Commencer le quiz</button>
+      <button class="btn2" id="toggleContent">Afficher/masquer les fiches</button>
+      <button class="btn2" id="copyLink">Partager le jour</button>
+    </div>
+  </section>
+
+  <section id="content" class="grid"></section>
+
+  <section id="quiz" class="quiz">
+    <h3>Quiz — 10 questions</h3>
+    <form id="quizForm"></form>
+    <button class="btn" id="submitQuiz">Valider</button>
+    <div class="divider"></div>
+    <div class="badge" id="scoreHead" style="display:none">Score</div>
+    <div id="scoreBox"></div>
+  </section>
+
+  <footer>
+    <div class="divider"></div>
+    <p>Pour ajouter des jours : crée <code>day002.json</code>… <code>day010.json</code>. Les fichiers manquants retombent sur le jour 1.</p>
+  </footer>
+</main>
+
+<script>
+const START_DATE = "2025-08-13";
+const AVAILABLE_DAYS = 10;
+
+const contentEl = document.getElementById('content');
+const quizEl = document.getElementById('quiz');
+const quizForm = document.getElementById('quizForm');
+const topicsCount = document.getElementById('topicsCount');
+const dayLabel = document.getElementById('dayLabel');
+const scoreBox = document.getElementById('scoreBox');
+const scoreHead = document.getElementById('scoreHead');
+const todaySpan = document.getElementById('today');
+
+function pad(n){ return String(n).padStart(3,'0'); }
+function formatDate(d){ return d.toLocaleDateString('fr-CH',{weekday:'long',year:'numeric',month:'long',day:'numeric'}); }
+function computeDayIndex(){
+  const start = new Date(START_DATE + "T00:00:00"), now = new Date();
+  const diff = Math.floor((now - start)/(1000*60*60*24));
+  return diff >= 0 ? (diff % Math.max(AVAILABLE_DAYS,1)) + 1 : 1;
+}
+async function fetchJSON(url){
+  const res = await fetch(url);
+  if(!res.ok) throw new Error('HTTP '+res.status);
+  return await res.json();
+}
+function renderTopics(topics){
+  contentEl.innerHTML = '';
+  topics.forEach((t, idx) => {
+    const card = document.createElement('article');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="cat">${t.category ?? 'Sujet'}</div>
+      <div class="title">${t.title}</div>
+      <p class="muted">${t.summary}</p>
+      ${t.points && t.points.length ? '<ul class="points">' + t.points.map(p => '<li>'+p+'</li>').join('') + '</ul>' : ''}
+      <div class="sub">Question liée au quiz n°${idx+1}</div>
+    `;
+    contentEl.appendChild(card);
+  });
+  topicsCount.textContent = topics.length + " sujets";
+}
+function tChoice(choices, idx){ return choices[idx] ?? ''; }
+function renderQuiz(topics, day){
+  quizForm.innerHTML = '';
+  topics.forEach((t, i) => {
+    const qid = "q_" + i;
+    const block = document.createElement('div');
+    block.className = 'q';
+    block.innerHTML = `
+      <h4>Q${i+1}. ${t.quiz.question}</h4>
+      <div style="display:grid;gap:8px">
+        ${t.quiz.choices.map((c, j) => `
+          <label style="display:flex;gap:8px;align-items:start">
+            <input type="radio" name="${qid}" value="${j}"> ${c}
+          </label>
+        `).join('')}
+      </div>
+    `;
+    quizForm.appendChild(block);
+  });
+  document.getElementById('submitQuiz').onclick = () => {
+    let correct = 0;
+    const results = [];
+    topics.forEach((t, i) => {
+      const qid = "q_" + i;
+      const fd = new FormData(quizForm);
+      const val = fd.get(qid) ? parseInt(fd.get(qid),10) : -1;
+      const ok = val === t.quiz.answer;
+      if(ok) correct += 1;
+      results.push({ ok, val, answer: t.quiz.answer, explanation: t.quiz.explanation, topic: t.title, choices: t.quiz.choices });
+    });
+    const pct = Math.round((correct / topics.length) * 100);
+    scoreHead.style.display = 'inline-block';
+    scoreBox.innerHTML = `
+      <div><strong>Score :</strong> ${correct} / ${topics.length} — ${pct}%</div>
+      <div class="divider"></div>
+      ${results.map((r, idx) => `
+        <div class="sub" style="margin-bottom:6px">
+          <span class="badge">${r.ok ? '✅' : '❌'} Q${idx+1}</span>
+          <em>${r.topic}</em> — ${r.ok ? 'Bravo !' : 'Réponse correcte : ' + r.choices[r.answer]}
+          <div class="muted">${r.explanation}</div>
+        </div>
+      `).join('')}
+    `;
+    try { localStorage.setItem('cq_score_day_'+day, JSON.stringify({correct,total:topics.length,pct,ts:Date.now()})); } catch(e){}
+  };
+}
+async function loadDay(day){
+  const url = 'day' + pad(day) + '.json';
+  let data, actualDay = day;
+  try { data = await fetchJSON(url); }
+  catch(e){ data = await fetchJSON('day001.json'); actualDay = 1; }
+  dayLabel.textContent = "Jour " + actualDay;
+  todaySpan.textContent = formatDate(new Date());
+  renderTopics(data.topics);
+  renderQuiz(data.topics, actualDay);
+}
+(function init(){
+  const params = new URLSearchParams(location.search);
+  const paramDay = parseInt(params.get('day') || '0', 10);
+  const day = Number.isFinite(paramDay) && paramDay > 0 ? paramDay : computeDayIndex();
+  loadDay(day);
+
+  document.getElementById('startQuiz').onclick = () => {
+    document.getElementById('quiz').style.display = 'block';
+    document.getElementById('content').scrollIntoView({behavior:'smooth', block:'start'});
+  };
+  document.getElementById('toggleContent').onclick = () => {
+    const c = document.getElementById('content');
+    c.style.display = (c.style.display === 'none') ? 'grid' : 'none';
+  };
+  document.getElementById('copyLink').onclick = async () => {
+    const u = new URL(location.href);
+    const curDay = dayLabel.textContent.replace('Jour ','').trim();
+    u.searchParams.set('day', curDay);
+    try{ await navigator.clipboard.writeText(u.toString()); alert('Lien copié : '+u.toString()); } catch(e){ alert(u.toString()); }
+  };
+})();
+</script>
+</body>
+</html>
