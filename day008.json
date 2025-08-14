@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 8,
+    "title": "Jour 8 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Expansion islamique (VII–VIIIe)",
+      "summary": "Après 632, conquêtes rapides du Moyen-Orient à l’Espagne ; échanges scientifiques et culturels foisonnent.",
+      "points": [
+        "Conquêtes",
+        "Échanges",
+        "Traductions"
+      ],
+      "quiz": {
+        "question": "Quelle ville devient un centre de traduction ?",
+        "choices": [
+          "Bagdad",
+          "Rome",
+          "Paris",
+          "Tokyo"
+        ],
+        "answer": 0,
+        "explanation": "La Maison de la Sagesse à Bagdad fut majeure."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Déserts chauds",
+      "summary": "Peu de précipitations, fortes amplitudes thermiques ; oasis, ergs et regs ; adaptations des espèces.",
+      "points": [
+        "Aridité",
+        "Oasis",
+        "Ergs/regs"
+      ],
+      "quiz": {
+        "question": "Quel facteur définit surtout un désert ?",
+        "choices": [
+          "Aridité",
+          "Température basse",
+          "Altitude élevée",
+          "Latitude fixe"
+        ],
+        "answer": 0,
+        "explanation": "Très faibles précipitations annuelles."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Neurones et synapses",
+      "summary": "Potentiels d’action, neurotransmetteurs, plasticité synaptique : base de l’apprentissage.",
+      "points": [
+        "PA et synapses",
+        "Neurotransmetteurs",
+        "Plasticité"
+      ],
+      "quiz": {
+        "question": "Quel messager traverse la fente synaptique ?",
+        "choices": [
+          "Neurotransmetteur",
+          "Hormone thyroïde",
+          "Globule rouge",
+          "ARNt"
+        ],
+        "answer": 0,
+        "explanation": "Les neurotransmetteurs transmettent le signal."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Polymères",
+      "summary": "Macromolécules répétitives : plastiques, protéines, ADN ; propriétés selon monomères et architecture.",
+      "points": [
+        "Monomères",
+        "Synthèse",
+        "Propriétés"
+      ],
+      "quiz": {
+        "question": "Quel polymère biologique code l’hérédité ?",
+        "choices": [
+          "ADN",
+          "Polyéthylène",
+          "Polystyrène",
+          "PVC"
+        ],
+        "answer": 0,
+        "explanation": "L’ADN est un polymère naturel."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Pression et poussée d’Archimède",
+      "summary": "Tout corps plongé dans un fluide subit une poussée égale au poids du fluide déplacé.",
+      "points": [
+        "Pression",
+        "Poussée",
+        "Flottabilité"
+      ],
+      "quiz": {
+        "question": "Un objet flotte si…",
+        "choices": [
+          "Sa densité < fluide",
+          "Sa masse est nulle",
+          "Il est creux",
+          "La température est basse"
+        ],
+        "answer": 0,
+        "explanation": "La flottabilité dépend de la densité relative."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Art déco",
+      "summary": "Années 1920–30 : lignes géométriques, matériaux luxueux, motifs stylisés ; architecture et design.",
+      "points": [
+        "Géométrie",
+        "Matériaux",
+        "Motifs stylisés"
+      ],
+      "quiz": {
+        "question": "Quel decade est typique de l'Art déco ?",
+        "choices": [
+          "1920–30",
+          "1500–1600",
+          "1980–90",
+          "1100–1200"
+        ],
+        "answer": 0,
+        "explanation": "L’art déco culmine entre-deux-guerres."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Poésie engagée",
+      "summary": "Écriture au service d’une cause politique ou sociale ; Aragon, Éluard, Neruda.",
+      "points": [
+        "Cause",
+        "Collectif",
+        "Imagerie"
+      ],
+      "quiz": {
+        "question": "Quel genre peut être « engagé » ?",
+        "choices": [
+          "Poésie",
+          "Manuel technique",
+          "Recette",
+          "Table de log"
+        ],
+        "answer": 0,
+        "explanation": "La poésie peut porter un message politique."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Mondialisation",
+      "summary": "Intégration accrue des économies, flux de biens, capitaux, idées et personnes ; gagnants et perdants.",
+      "points": [
+        "Flux",
+        "Intégration",
+        "Inégalités"
+      ],
+      "quiz": {
+        "question": "Quel flux accélère la mondialisation financière ?",
+        "choices": [
+          "Capitaux",
+          "Neige",
+          "Magma",
+          "Rayons X"
+        ],
+        "answer": 0,
+        "explanation": "La mobilité des capitaux est centrale."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Systèmes d’exploitation",
+      "summary": "Gèrent ressources matérielles, processus, mémoire et fichiers ; exemples : Linux, Windows, macOS.",
+      "points": [
+        "Ressources",
+        "Processus",
+        "Fichiers"
+      ],
+      "quiz": {
+        "question": "Quel logiciel gère le CPU/mémoire ?",
+        "choices": [
+          "Système d’exploitation",
+          "Navigateur",
+          "Pilote d’imprimante",
+          "Client mail"
+        ],
+        "answer": 0,
+        "explanation": "C’est la fonction d’un OS."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Écriture quipus",
+      "summary": "Chez les Incas, cordelettes nouées pour enregistrer des données ; système mnémonique/numérique.",
+      "points": [
+        "Cordelettes",
+        "Nœuds",
+        "Comptabilité"
+      ],
+      "quiz": {
+        "question": "Les quipus servaient surtout à…",
+        "choices": [
+          "Enregistrer des données",
+          "Cuire le maïs",
+          "Faire la guerre",
+          "Peindre"
+        ],
+        "answer": 0,
+        "explanation": "C’est un système de notation par nœuds."
+      }
+    }
+  ]
+}

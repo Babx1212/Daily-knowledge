@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 10,
+    "title": "Jour 10 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Première Guerre mondiale",
+      "summary": "1914–1918 : guerre industrielle, tranchées, pertes massives ; traités redessinent l’Europe.",
+      "points": [
+        "Tranchées",
+        "Mobilisation totale",
+        "Traités"
+      ],
+      "quiz": {
+        "question": "Quel événement déclenche le conflit ?",
+        "choices": [
+          "Attentat de Sarajevo",
+          "Crise de 1929",
+          "Peste noire",
+          "Congrès de Berlin"
+        ],
+        "answer": 0,
+        "explanation": "Assassinat de François‑Ferdinand en 1914."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Océans : courants",
+      "summary": "Courants de surface et profonds redistribuent chaleur/sels ; ENSO perturbe le climat mondial.",
+      "points": [
+        "Surface/profondeur",
+        "Chaleur",
+        "ENSO"
+      ],
+      "quiz": {
+        "question": "Quel courant réchauffe l’Europe de l’ouest ?",
+        "choices": [
+          "Gulf Stream",
+          "Humboldt",
+          "Kuroshio",
+          "Canaries"
+        ],
+        "answer": 0,
+        "explanation": "Le Gulf Stream adoucit le climat européen."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Hormones et communication",
+      "summary": "Messagers chimiques produits par glandes endocrines ; agissent à distance via récepteurs spécifiques.",
+      "points": [
+        "Endocrine",
+        "Récepteurs",
+        "Régulation"
+      ],
+      "quiz": {
+        "question": "Quelle glande oriente le métabolisme basal ?",
+        "choices": [
+          "Thyroïde",
+          "Rate",
+          "Pancréas exocrine",
+          "Appendice"
+        ],
+        "answer": 0,
+        "explanation": "La thyroïde sécrète T3/T4."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Catalyse",
+      "summary": "Augmente la vitesse sans être consommé ; enzymes en bio, catalyseurs métalliques en industrie.",
+      "points": [
+        "Abaisse E‡",
+        "Non consommé",
+        "Sélectivité"
+      ],
+      "quiz": {
+        "question": "Une enzyme est…",
+        "choices": [
+          "Un catalyseur biologique",
+          "Un solvant apolaire",
+          "Un inhibiteur permanent",
+          "Un oxydant"
+        ],
+        "answer": 0,
+        "explanation": "Les enzymes catalysent les réactions vivantes."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Acoustique",
+      "summary": "Son = onde mécanique ; hauteur = fréquence, timbre = spectre ; résonance et harmoniques.",
+      "points": [
+        "Fréquence",
+        "Spectre",
+        "Résonance"
+      ],
+      "quiz": {
+        "question": "Augmenter la fréquence augmente…",
+        "choices": [
+          "La hauteur perçue",
+          "Le volume",
+          "La vitesse du son",
+          "La masse"
+        ],
+        "answer": 0,
+        "explanation": "Plus de Hz → son plus aigu."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Photographie : cadrage",
+      "summary": "Règle des tiers, lignes directrices, profondeur ; exposition = ouverture + vitesse + ISO.",
+      "points": [
+        "Cadrage",
+        "Exposition",
+        "Profondeur"
+      ],
+      "quiz": {
+        "question": "Que règle l’ouverture ?",
+        "choices": [
+          "Profondeur de champ",
+          "La focale du capteur",
+          "La balance des blancs",
+          "La compression JPEG"
+        ],
+        "answer": 0,
+        "explanation": "Ouverture contrôle la profondeur de champ."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Théâtre : comédie",
+      "summary": "Quiproquos, satire sociale, fin heureuse ; Molière en France reste une référence.",
+      "points": [
+        "Quiproquo",
+        "Satire",
+        "Dénouement heureux"
+      ],
+      "quiz": {
+        "question": "Quel auteur est un maître de la comédie ?",
+        "choices": [
+          "Molière",
+          "Sartre",
+          "Racine",
+          "Ionesco"
+        ],
+        "answer": 0,
+        "explanation": "Molière a popularisé le genre classique."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Sociologie : socialisation",
+      "summary": "Processus d’apprentissage des normes et rôles, tout au long de la vie (famille, école, pairs, médias).",
+      "points": [
+        "Normes/valeurs",
+        "Instances",
+        "Cycle de vie"
+      ],
+      "quiz": {
+        "question": "Quel acteur socialise d’abord l’enfant ?",
+        "choices": [
+          "La famille",
+          "L’entreprise",
+          "Le parlement",
+          "Le syndicat"
+        ],
+        "answer": 0,
+        "explanation": "La famille est primaire."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Web : APIs REST",
+      "summary": "Ressources adressées par URL ; verbes HTTP (GET/POST/PUT/DELETE) ; formats JSON.",
+      "points": [
+        "Ressources",
+        "Verbes HTTP",
+        "JSON"
+      ],
+      "quiz": {
+        "question": "Quel verbe lit une ressource ?",
+        "choices": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "answer": 0,
+        "explanation": "GET est la méthode de lecture."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Bruit blanc",
+      "summary": "Signal aléatoire avec densité spectrale plate ; utilisé pour tests et masquage sonore.",
+      "points": [
+        "Spectre plat",
+        "Tests",
+        "Masquage"
+      ],
+      "quiz": {
+        "question": "Le bruit blanc a…",
+        "choices": [
+          "Un spectre plat",
+          "Une note stable",
+          "Un rythme régulier",
+          "Une parole cachée"
+        ],
+        "answer": 0,
+        "explanation": "Toutes les fréquences ont la même puissance."
+      }
+    }
+  ]
+}

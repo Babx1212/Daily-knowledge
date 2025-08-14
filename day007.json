@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 7,
+    "title": "Jour 7 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Grèce antique : polis",
+      "summary": "Cité-État avec citoyenneté et institutions ; Athènes invente une démocratie directe limitée aux citoyens.",
+      "points": [
+        "Citoyenneté",
+        "Institutions",
+        "Démocratie directe"
+      ],
+      "quiz": {
+        "question": "Quelle cité incarne la démocratie classique ?",
+        "choices": [
+          "Athènes",
+          "Sparte",
+          "Thèbes",
+          "Corinthe"
+        ],
+        "answer": 0,
+        "explanation": "Athènes du Ve siècle av. J.-C."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Risques naturels",
+      "summary": "Séismes, tsunamis, cyclones : aléas × vulnérabilité = risque ; prévention et aménagement réduisent l’exposition.",
+      "points": [
+        "Aléa/vulnérabilité",
+        "Prévention",
+        "Aménagement"
+      ],
+      "quiz": {
+        "question": "Le tsunami suit souvent…",
+        "choices": [
+          "Un séisme sous-marin",
+          "Une canicule",
+          "Une éruption solaire",
+          "Une glaciation"
+        ],
+        "answer": 0,
+        "explanation": "Un déplacement brusque du fond marin génère la vague."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Écosystèmes et chaînes",
+      "summary": "Producteurs, consommateurs, décomposeurs ; flux d’énergie décroissants le long des niveaux trophiques.",
+      "points": [
+        "Niveaux trophiques",
+        "Producteurs",
+        "Décomposeurs"
+      ],
+      "quiz": {
+        "question": "Qui capte l’énergie solaire en premier ?",
+        "choices": [
+          "Producteurs",
+          "Carnivores",
+          "Décomposeurs",
+          "Omnivores"
+        ],
+        "answer": 0,
+        "explanation": "Les producteurs (plantes, algues) font la photosynthèse."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Solutions et solubilité",
+      "summary": "Dépend de la température, de la polarité et parfois de la pression ; règle du « similaire dissout similaire ».",
+      "points": [
+        "Température",
+        "Polarité",
+        "Pression gaz"
+      ],
+      "quiz": {
+        "question": "Quel solvant dissout bien le sel (ionique) ?",
+        "choices": [
+          "Eau",
+          "Hexane",
+          "Benzène",
+          "Éther"
+        ],
+        "answer": 0,
+        "explanation": "L’eau polaire solvate les ions."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Champ gravitationnel",
+      "summary": "Force attractive entre masses, décroît en 1/r² ; orbites elliptiques (Kepler) et chutes libres.",
+      "points": [
+        "1/r²",
+        "Attraction universelle",
+        "Orbites"
+      ],
+      "quiz": {
+        "question": "La gravitation entre deux masses est…",
+        "choices": [
+          "Toujours attractive",
+          "Toujours répulsive",
+          "Nulle dans le vide",
+          "D’abord répulsive"
+        ],
+        "answer": 0,
+        "explanation": "La loi de Newton la décrit attractive."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Renaissance italienne",
+      "summary": "Retour aux Anciens, perspective, anatomie ; Léonard, Raphaël, Michel-Ange marquent l’art occidental.",
+      "points": [
+        "Humanisme",
+        "Perspective",
+        "Maîtres italiens"
+      ],
+      "quiz": {
+        "question": "Quel artiste peint La Cène ?",
+        "choices": [
+          "Léonard de Vinci",
+          "Raphaël",
+          "Titien",
+          "Giotto"
+        ],
+        "answer": 0,
+        "explanation": "La Cène est de Léonard."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Le réalisme",
+      "summary": "XIXe : peindre la société telle qu’elle est ; Balzac, Flaubert, Zola (naturellement plus tard).",
+      "points": [
+        "Observation",
+        "Milieux sociaux",
+        "Vraisemblance"
+      ],
+      "quiz": {
+        "question": "Quel auteur est réaliste/naturaliste ?",
+        "choices": [
+          "Émile Zola",
+          "Verlaine",
+          "Molière",
+          "Rimbaud"
+        ],
+        "answer": 0,
+        "explanation": "Zola est clé du naturalisme."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Cartes et biais",
+      "summary": "Les cartes simplifient le monde : projections et choix visuels créent des biais d’interprétation.",
+      "points": [
+        "Projection",
+        "Sélection",
+        "Biais visuels"
+      ],
+      "quiz": {
+        "question": "La projection de Mercator…",
+        "choices": [
+          "Grossit les hautes latitudes",
+          "Réduit le Groenland",
+          "Inversion des pôles",
+          "Supprime l’équateur"
+        ],
+        "answer": 0,
+        "explanation": "Mercator agrandit les régions proches des pôles."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Réseaux sans fil",
+      "summary": "Wi‑Fi/BT : ondes radio, protocoles, sécurité. Importance du chiffrement WPA2/3 et des canaux.",
+      "points": [
+        "Radio",
+        "Protocoles",
+        "Sécurité"
+      ],
+      "quiz": {
+        "question": "Quel standard sécurise le Wi‑Fi ?",
+        "choices": [
+          "WPA2/3",
+          "WEP 40 bits",
+          "POP3",
+          "NTP"
+        ],
+        "answer": 0,
+        "explanation": "WPA2/3 est recommandé."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Temps universel",
+      "summary": "UTC coordonne le temps mondial avec secondes intercalaires pour compenser l’irrégularité de la rotation terrestre.",
+      "points": [
+        "UTC",
+        "Seconde intercalaire",
+        "Synchronisation"
+      ],
+      "quiz": {
+        "question": "Pourquoi ajoute-t-on des secondes ?",
+        "choices": [
+          "Rotation terrestre irrégulière",
+          "Année bissextile",
+          "Fuseaux politiques",
+          "Saisons"
+        ],
+        "answer": 0,
+        "explanation": "UTC reste aligné sur la rotation terrestre."
+      }
+    }
+  ]
+}

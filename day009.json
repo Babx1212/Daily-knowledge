@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 9,
+    "title": "Jour 9 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Révolution américaine",
+      "summary": "Les 13 colonies se séparent du Royaume-Uni (1775–1783) ; constitution fédérale et droits individuels.",
+      "points": [
+        "Indépendance",
+        "Constitution",
+        "Droits"
+      ],
+      "quiz": {
+        "question": "Quel document proclame l’indépendance ?",
+        "choices": [
+          "Déclaration de 1776",
+          "Traité de Versailles",
+          "Bill of Rights UK",
+          "Code Napoléon"
+        ],
+        "answer": 0,
+        "explanation": "La Déclaration du 4 juillet 1776."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Montagnes et orogenèse",
+      "summary": "Chaînes issues de collisions (Alpes, Himalaya) ou d’autres processus ; soulèvement et érosion.",
+      "points": [
+        "Collision",
+        "Soulèvement",
+        "Érosion"
+      ],
+      "quiz": {
+        "question": "Quelle chaîne résulte d’une collision Inde‑Asie ?",
+        "choices": [
+          "Himalaya",
+          "Andes",
+          "Appalaches",
+          "Rocheuses"
+        ],
+        "answer": 0,
+        "explanation": "La plaque indienne heurte l’Eurasie."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Génétique mendélienne",
+      "summary": "Lois de ségrégation et d’assortiment indépendant ; dominance/récessivité et croisements.",
+      "points": [
+        "Ségrégation",
+        "Assortiment",
+        "Phénotype"
+      ],
+      "quiz": {
+        "question": "Comment s’appelle l’expression observable d’un gène ?",
+        "choices": [
+          "Phénotype",
+          "Génotype",
+          "Allèle",
+          "Caryotype"
+        ],
+        "answer": 0,
+        "explanation": "Le phénotype est le trait observable."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Thermochimie",
+      "summary": "Chaleur des réactions : enthalpie ΔH ; exotermique vs endothermique ; lois de Hess.",
+      "points": [
+        "ΔH",
+        "Exo/endo",
+        "Hess"
+      ],
+      "quiz": {
+        "question": "Une réaction qui libère de la chaleur est…",
+        "choices": [
+          "Exothermique",
+          "Endothermique",
+          "Athermique",
+          "Isotherme"
+        ],
+        "answer": 0,
+        "explanation": "Elle libère de l’énergie vers l’extérieur."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Électromagnétisme",
+      "summary": "Champs électrique et magnétique couplés ; induction de Faraday ; ondes EM.",
+      "points": [
+        "Champs couplés",
+        "Induction",
+        "Ondes EM"
+      ],
+      "quiz": {
+        "question": "Quel phénomène produit un courant par variation de flux ?",
+        "choices": [
+          "Induction",
+          "Réflexion",
+          "Diffusion",
+          "Polarisation"
+        ],
+        "answer": 0,
+        "explanation": "L’induction électromagnétique génère une f.é.m."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Romantisme",
+      "summary": "XIXe : exaltation des sentiments, nature sublime, individualité ; Delacroix, Turner, Chopin.",
+      "points": [
+        "Sentiment",
+        "Nature",
+        "Sujet"
+      ],
+      "quiz": {
+        "question": "Quel peintre romantique français ?",
+        "choices": [
+          "Delacroix",
+          "David Hockney",
+          "Mondrian",
+          "Duchamp"
+        ],
+        "answer": 0,
+        "explanation": "Delacroix incarne le romantisme français."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Utopie et dystopie",
+      "summary": "Sociétés idéales vs cauchemardesques ; critique sociale via monde imaginaire.",
+      "points": [
+        "Idéal vs cauchemar",
+        "Critique",
+        "Futur proche"
+      ],
+      "quiz": {
+        "question": "Quel roman est dystopique ?",
+        "choices": [
+          "1984",
+          "L’Odyssée",
+          "Candide",
+          "Emma"
+        ],
+        "answer": 0,
+        "explanation": "1984 dépeint un pouvoir totalitaire."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Institutions internationales",
+      "summary": "ONU, OMC, FMI : coopération, arbitrage, aide ; limites et controverses.",
+      "points": [
+        "Coopération",
+        "Règles communes",
+        "Conflits"
+      ],
+      "quiz": {
+        "question": "Quel organe vise la paix collective ?",
+        "choices": [
+          "ONU",
+          "OMC",
+          "FMI",
+          "OPEP"
+        ],
+        "answer": 0,
+        "explanation": "L’ONU a une vocation politique et sécuritaire."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "IA : apprentissage supervisé",
+      "summary": "Modèles apprennent à partir d’exemples étiquetés ; généralisation et surapprentissage à surveiller.",
+      "points": [
+        "Données étiquetées",
+        "Généralisation",
+        "Overfitting"
+      ],
+      "quiz": {
+        "question": "Quel terme décrit un modèle qui mémorise trop ?",
+        "choices": [
+          "Surapprentissage",
+          "Sous-apprentissage",
+          "Compression",
+          "Régularité"
+        ],
+        "answer": 0,
+        "explanation": "Overfitting = surapprentissage."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Numération maya",
+      "summary": "Système vigésimal avec points et barres, symbole du zéro ; calendrier élaboré.",
+      "points": [
+        "Base 20",
+        "Zéro",
+        "Calendriers"
+      ],
+      "quiz": {
+        "question": "Quelle base utilise la numération maya ?",
+        "choices": [
+          "20",
+          "10",
+          "12",
+          "60"
+        ],
+        "answer": 0,
+        "explanation": "La base 20 est caractéristique."
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 4,
+    "title": "Jour 4 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Révolution industrielle (XVIII–XIXe)",
+      "summary": "Mécanisation, charbon, machines à vapeur ; usines et urbanisation transforment économie et société au Royaume-Uni puis en Europe/USA.",
+      "points": [
+        "Machine à vapeur",
+        "Usines/ville",
+        "Productivité"
+      ],
+      "quiz": {
+        "question": "Quelle énergie alimente les premières machines ?",
+        "choices": [
+          "Charbon",
+          "Pétrole",
+          "Nucléaire",
+          "Solaire"
+        ],
+        "answer": 0,
+        "explanation": "La vapeur provient du charbon brûlé."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Rivières et bassins versants",
+      "summary": "Un bassin versant draine les eaux vers un exutoire. Aménagements, crues et pollution s’analysent à cette échelle géographique.",
+      "points": [
+        "Drainage",
+        "Exutoire",
+        "Gestion des crues"
+      ],
+      "quiz": {
+        "question": "Le point où se jettent les eaux s’appelle…",
+        "choices": [
+          "Exutoire",
+          "Dorsale",
+          "Faille",
+          "Delta intérieur"
+        ],
+        "answer": 0,
+        "explanation": "L’exutoire est l’issue du bassin."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Évolution : sélection naturelle",
+      "summary": "Variations héréditaires + pression sélective → survie/reproduction différentielles. À long terme, spéciation et adaptation des populations.",
+      "points": [
+        "Variation",
+        "Sélection",
+        "Adaptation"
+      ],
+      "quiz": {
+        "question": "Qui a théorisé la sélection naturelle ?",
+        "choices": [
+          "Charles Darwin",
+          "Gregor Mendel",
+          "Lamarck",
+          "Pasteur"
+        ],
+        "answer": 0,
+        "explanation": "Darwin l’expose en 1859 dans L’Origine des espèces."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Gaz parfaits (loi PV=nRT)",
+      "summary": "Pour un gaz idéal, pression×volume dépend de la température et de la quantité de matière. Modèle utile aux conditions modérées.",
+      "points": [
+        "P,V,T,n liés",
+        "Constante R",
+        "Modèle simplifié"
+      ],
+      "quiz": {
+        "question": "Si T augmente (n,V constants), la pression…",
+        "choices": [
+          "Augmente",
+          "Baisse",
+          "Invarie",
+          "Devient nulle"
+        ],
+        "answer": 0,
+        "explanation": "Agitation thermique accrue → pression augmente."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Électricité : courant/tension",
+      "summary": "Tension = différence de potentiel, courant = déplacement de charges. Loi d’Ohm : U=RI dans un conducteur ohmique.",
+      "points": [
+        "U=RI",
+        "Différence de potentiel",
+        "Charges en mouvement"
+      ],
+      "quiz": {
+        "question": "Dans U=RI, que représente R ?",
+        "choices": [
+          "La résistance",
+          "La puissance",
+          "La charge",
+          "La fréquence"
+        ],
+        "answer": 0,
+        "explanation": "R est la résistance électrique en ohms."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Musique classique : formes",
+      "summary": "Sonate, symphonie, concerto : structures qui organisent thèmes et développements, surtout aux XVIII–XIXe siècles.",
+      "points": [
+        "Sonate/symphonie",
+        "Thèmes",
+        "Développement"
+      ],
+      "quiz": {
+        "question": "Quel genre met en valeur un soliste + orchestre ?",
+        "choices": [
+          "Concerto",
+          "Symphonie",
+          "Quatuor",
+          "Suite"
+        ],
+        "answer": 0,
+        "explanation": "Le concerto oppose soliste et orchestre."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Tragédie classique",
+      "summary": "Unités de temps/lieu/action, bienséance et vraisemblance. Héros confronté au destin, catharsis chez le spectateur.",
+      "points": [
+        "Trois unités",
+        "Bienséance",
+        "Destin/hybris"
+      ],
+      "quiz": {
+        "question": "Quelle règle structurelle est emblématique ?",
+        "choices": [
+          "Les trois unités",
+          "La rime pauvre",
+          "Le narrateur interne",
+          "Le vers libre"
+        ],
+        "answer": 0,
+        "explanation": "La tragédie classique française valorise ces unités."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Institutions et règles",
+      "summary": "Institutions formelles et informelles cadrent les comportements et réduisent l’incertitude (économie des institutions).",
+      "points": [
+        "Règles formelles",
+        "Normes informelles",
+        "Coûts de transaction"
+      ],
+      "quiz": {
+        "question": "Quel rôle principal jouent les institutions ?",
+        "choices": [
+          "Réduire l’incertitude",
+          "Produire de l’énergie",
+          "Générer de l’ADN",
+          "Créer des volcans"
+        ],
+        "answer": 0,
+        "explanation": "Elles stabilisent les attentes et facilitent l’échange."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Bases de données relationnelles",
+      "summary": "Données en tables liées par des clés ; SQL interroge et manipule. ACID garantit cohérence des transactions.",
+      "points": [
+        "Tables/clé",
+        "SQL",
+        "ACID"
+      ],
+      "quiz": {
+        "question": "Quel langage standard interroge ces bases ?",
+        "choices": [
+          "SQL",
+          "HTML",
+          "CSS",
+          "SMTP"
+        ],
+        "answer": 0,
+        "explanation": "SQL (Structured Query Language) est la norme."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Origine du zéro (Inde)",
+      "summary": "Le concept de zéro comme nombre naît en Inde (Gupta), transmis via le monde arabe vers l’Europe médiévale.",
+      "points": [
+        "Inde ancienne",
+        "Transmission arabe",
+        "Europe médiévale"
+      ],
+      "quiz": {
+        "question": "Quelle région a formalisé le zéro numérique ?",
+        "choices": [
+          "Inde",
+          "Grèce",
+          "Chine",
+          "Maya uniquement"
+        ],
+        "answer": 0,
+        "explanation": "La numération positionnelle indienne intègre le zéro."
+      }
+    }
+  ]
+}

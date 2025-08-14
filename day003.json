@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 3,
+    "title": "Jour 3 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Route de la soie",
+      "summary": "Réseaux caravanier et maritime reliant Chine, Asie centrale, Inde, Moyen-Orient, Europe. Échanges de soieries, épices, idées et religions.",
+      "points": [
+        "Réseaux multiples",
+        "Biens et idées",
+        "Influences croisées"
+      ],
+      "quiz": {
+        "question": "Quelle région n’est pas sur la Route de la soie ?",
+        "choices": [
+          "Amérique du Sud",
+          "Chine",
+          "Asie centrale",
+          "Méditerranée"
+        ],
+        "answer": 0,
+        "explanation": "La Route de la soie est afro-eurasiatique."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Cycle du carbone",
+      "summary": "Le CO₂ circule entre atmosphère, océans, biosphère et lithosphère. Les activités humaines perturbent les flux, accentuant l’effet de serre.",
+      "points": [
+        "Réservoirs multiples",
+        "Flux naturels",
+        "Perturbations humaines"
+      ],
+      "quiz": {
+        "question": "Quel gaz à effet de serre est central ici ?",
+        "choices": [
+          "CO₂",
+          "Hélium",
+          "Argon",
+          "Ozone"
+        ],
+        "answer": 0,
+        "explanation": "Le dioxyde de carbone est au cœur du cycle étudié."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Système immunitaire inné",
+      "summary": "Première ligne de défense : barrières, phagocytes, inflammation. Rapide mais non spécifique, elle alerte l’immunité adaptative.",
+      "points": [
+        "Barrières/peau",
+        "Phagocytose",
+        "Inflammation"
+      ],
+      "quiz": {
+        "question": "Quel type d’immunité répond le plus vite ?",
+        "choices": [
+          "Innée",
+          "Adaptative",
+          "Acquise seulement",
+          "Aucune"
+        ],
+        "answer": 0,
+        "explanation": "La réponse innée agit immédiatement."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Liaisons hydrogène",
+      "summary": "Interaction entre H lié à O/N/F et un doublet non liant. Explique propriétés de l’eau (anomalie de densité) et structures d’ADN/protéines.",
+      "points": [
+        "H…O/N/F",
+        "Eau, ADN",
+        "Structure/propriétés"
+      ],
+      "quiz": {
+        "question": "Quel atome n’est pas typique d’une liaison H ?",
+        "choices": [
+          "Carbone",
+          "Oxygène",
+          "Azote",
+          "Fluor"
+        ],
+        "answer": 0,
+        "explanation": "Les liaisons H concernent H avec O, N ou F."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Mécanique quantique : quanta",
+      "summary": "À l’échelle microscopique, énergie et matière présentent des comportements ondulatoires et discrets. Probabilités et fonctions d’onde remplacent les trajectoires classiques.",
+      "points": [
+        "Dualité onde-corpuscule",
+        "Quanta d’énergie",
+        "Probabilités"
+      ],
+      "quiz": {
+        "question": "Quel phénomène illustre la dualité ?",
+        "choices": [
+          "Interférences d’électrons",
+          "Chute libre",
+          "Trajet balistique",
+          "Frottement solide"
+        ],
+        "answer": 0,
+        "explanation": "Les électrons montrent des franges d’interférence."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Cubisme",
+      "summary": "Avec Picasso et Braque : objets décomposés, points de vue multiples, formes géométrisées. Passage de l’analytique au synthétique.",
+      "points": [
+        "Décomposition",
+        "Multiples points de vue",
+        "Géométrisation"
+      ],
+      "quiz": {
+        "question": "Quel artiste est lié au cubisme ?",
+        "choices": [
+          "Pablo Picasso",
+          "Van Gogh",
+          "Turner",
+          "Ingres"
+        ],
+        "answer": 0,
+        "explanation": "Picasso est fondateur du mouvement."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Narrateur et focalisation",
+      "summary": "Focalisation zéro, interne ou externe guident l’accès à l’information. Le narrateur peut être personnage ou extradiégétique.",
+      "points": [
+        "Trois focalisations",
+        "Point de vue",
+        "Effet sur le lecteur"
+      ],
+      "quiz": {
+        "question": "La focalisation interne donne accès…",
+        "choices": [
+          "Aux pensées d’un personnage",
+          "À tout savoir",
+          "À aucun intérieur",
+          "Au futur certain"
+        ],
+        "answer": 0,
+        "explanation": "Interne = angle d’un personnage, ses perceptions/pensées."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Démographie : transition",
+      "summary": "Baisse successive mortalité puis natalité conduit d’un régime traditionnel à un régime moderne ; croissance puis stabilisation démographique.",
+      "points": [
+        "Mortalité↓",
+        "Natalité↓",
+        "Stabilisation"
+      ],
+      "quiz": {
+        "question": "Dans la première phase, que baisse d’abord ?",
+        "choices": [
+          "Mortalité",
+          "Natalité",
+          "Âge médian",
+          "Migration"
+        ],
+        "answer": 0,
+        "explanation": "Les progrès sanitaires font chuter la mortalité avant la natalité."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Sécurité : chiffrement symétrique",
+      "summary": "Même clé pour chiffrer/déchiffrer (AES). Rapide, utilisé pour les données en transit/au repos, souvent avec échange de clé via chiffrement asymétrique.",
+      "points": [
+        "Même clé",
+        "Rapide",
+        "Avec asymétrique"
+      ],
+      "quiz": {
+        "question": "Quel algorithme est symétrique ?",
+        "choices": [
+          "AES",
+          "RSA",
+          "ECDSA",
+          "Diffie-Hellman"
+        ],
+        "answer": 0,
+        "explanation": "AES est un standard de chiffrement symétrique."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Mesurer la Terre : Eratosthène",
+      "summary": "Au IIIe s. av. J.-C., il estime la circonférence terrestre via l’ombre d’un bâton à Syène/Alexandrie et la distance entre les villes.",
+      "points": [
+        "Gnomon",
+        "Angles/ombres",
+        "Distance connue"
+      ],
+      "quiz": {
+        "question": "Quel outil simple a-t-il utilisé ?",
+        "choices": [
+          "Un gnomon (bâton)",
+          "Un satellite",
+          "Un laser",
+          "Un sextant"
+        ],
+        "answer": 0,
+        "explanation": "L’ombre d’un bâton suffit si l’on connaît la distance."
+      }
+    }
+  ]
+}

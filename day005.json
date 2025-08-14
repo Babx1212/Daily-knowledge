@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 5,
+    "title": "Jour 5 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Guerre froide : équilibres",
+      "summary": "1947–1991 : bipolarité USA/URSS, dissuasion nucléaire, blocs et conflits périphériques ; fin avec l’effondrement soviétique.",
+      "points": [
+        "Bipolarité",
+        "Dissuasion",
+        "Détente/glasnost"
+      ],
+      "quiz": {
+        "question": "Quel couple incarne la bipolarité ?",
+        "choices": [
+          "USA/URSS",
+          "USA/Chine",
+          "URSS/Chine",
+          "UK/France"
+        ],
+        "answer": 0,
+        "explanation": "La Guerre froide oppose USA et URSS."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Urbanisation mondiale",
+      "summary": "Transition rurale→urbaine ; mégapoles, métropolisation, défis de logement, transport, pollution et résilience.",
+      "points": [
+        "Mégapoles",
+        "Métropolisation",
+        "Défis urbains"
+      ],
+      "quiz": {
+        "question": "Quel phénomène désigne la montée des grandes villes ?",
+        "choices": [
+          "Métropolisation",
+          "Salinisation",
+          "Déforestation",
+          "Glaciation"
+        ],
+        "answer": 0,
+        "explanation": "La métropolisation concentre fonctions et population."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "ARN et traduction",
+      "summary": "Les ribosomes lisent l’ARNm et assemblent les acides aminés via ARNt ; le code génétique est presque universel.",
+      "points": [
+        "Ribosomes",
+        "ARNm/ARNt",
+        "Code universel"
+      ],
+      "quiz": {
+        "question": "Quel organite synthétise les protéines ?",
+        "choices": [
+          "Ribosome",
+          "Mitochondrie",
+          "Lysosome",
+          "Centrosome"
+        ],
+        "answer": 0,
+        "explanation": "Les ribosomes réalisent la traduction."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Oxydoréduction",
+      "summary": "Transfert d’électrons : oxydant capte, réducteur cède. Piles et corrosion illustrent ces réactions.",
+      "points": [
+        "Électrons transférés",
+        "Oxydant/réducteur",
+        "Applications"
+      ],
+      "quiz": {
+        "question": "Dans une pile, l’oxydant…",
+        "choices": [
+          "Capte des électrons",
+          "Cède des protons",
+          "Se sublime",
+          "Émet des photons"
+        ],
+        "answer": 0,
+        "explanation": "Par définition, l’oxydant gagne des électrons."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Ondes : fréquence/longueur d’onde",
+      "summary": "v = f·λ ; interférences et diffraction caractérisent les ondes ; spectres en acoustique et lumière.",
+      "points": [
+        "v=f·λ",
+        "Interférences",
+        "Diffraction"
+      ],
+      "quiz": {
+        "question": "Si v constante et f double, λ…",
+        "choices": [
+          "Est divisée par 2",
+          "Double",
+          "Inchange",
+          "Devient nulle"
+        ],
+        "answer": 0,
+        "explanation": "λ = v/f : si f double, λ est divisée par deux."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Surréalisme",
+      "summary": "Breton, Dalí, Magritte : automatisme, rêve, hasard objectif ; images oniriques défient la logique.",
+      "points": [
+        "Rêve",
+        "Automatisme",
+        "Inconscient"
+      ],
+      "quiz": {
+        "question": "Quel peintre est surréaliste ?",
+        "choices": [
+          "Salvador Dalí",
+          "Cézanne",
+          "Poussin",
+          "Monet"
+        ],
+        "answer": 0,
+        "explanation": "Dalí est une figure surréaliste."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "La fable",
+      "summary": "Bref récit allégorique avec morale, animaux parlants ; La Fontaine popularise en français.",
+      "points": [
+        "Allégorie",
+        "Morale",
+        "Animaux parlants"
+      ],
+      "quiz": {
+        "question": "Qui popularise la fable en français ?",
+        "choices": [
+          "La Fontaine",
+          "Zola",
+          "Balzac",
+          "Flaubert"
+        ],
+        "answer": 0,
+        "explanation": "Les Fables de La Fontaine sont célèbres."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Jeux et stratégies",
+      "summary": "Théorie des jeux : équilibres de Nash, dilemme du prisonnier ; applications économie/politique.",
+      "points": [
+        "Équilibre de Nash",
+        "Dilemme",
+        "Applications"
+      ],
+      "quiz": {
+        "question": "Dans le dilemme, la coopération…",
+        "choices": [
+          "Bénéfique mais fragile",
+          "Toujours dominante",
+          "Interdite",
+          "Sans effet"
+        ],
+        "answer": 0,
+        "explanation": "La tentation de défection rend la coopération fragile."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Git et versions",
+      "summary": "Système de contrôle distribué ; commits, branches, merges ; permet de suivre l’historique et collaborer.",
+      "points": [
+        "Commits",
+        "Branches",
+        "Fusion"
+      ],
+      "quiz": {
+        "question": "Quelle commande crée un snapshot ?",
+        "choices": [
+          "commit",
+          "clone",
+          "status",
+          "rm"
+        ],
+        "answer": 0,
+        "explanation": "Un commit enregistre un état."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Langues sifflées",
+      "summary": "Certaines communautés convertissent la parole en sifflements (La Gomera), pour communiquer à longue distance.",
+      "points": [
+        "Transmission lointaine",
+        "Codage phonétique",
+        "Patrimoines rares"
+      ],
+      "quiz": {
+        "question": "Avantage principal des langues sifflées ?",
+        "choices": [
+          "Portée à distance",
+          "Secret militaire",
+          "Écriture facile",
+          "Mesure physique"
+        ],
+        "answer": 0,
+        "explanation": "Les sifflements portent très loin en relief accidenté."
+      }
+    }
+  ]
+}

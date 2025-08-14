@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 2,
+    "title": "Jour 2 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Empire romain : apogée",
+      "summary": "Aux Ier–IIe siècles, l’Empire romain atteint son extension maximale sous Trajan. Réseau routier, droit, latin et pax romana structurent l’espace méditerranéen.",
+      "points": [
+        "Trajan et l’apogée",
+        "Réseau routier",
+        "Pax Romana"
+      ],
+      "quiz": {
+        "question": "Quel empereur associe-t-on à l’extension maximale ?",
+        "choices": [
+          "Trajan",
+          "Auguste",
+          "Néron",
+          "Hadrien"
+        ],
+        "answer": 0,
+        "explanation": "Sous Trajan (98–117), l’Empire atteint son plus grand territoire."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Climat et biomes",
+      "summary": "La répartition des biomes (forêt, savane, toundra…) dépend température/précipitations. Latitude, altitude et courants marins modèlent ces gradients.",
+      "points": [
+        "Température/précipitations",
+        "Latitude/altitude",
+        "Courants marins"
+      ],
+      "quiz": {
+        "question": "Quel facteur n’appartient pas aux biomes ?",
+        "choices": [
+          "La langue parlée",
+          "La température",
+          "Les précipitations",
+          "La latitude"
+        ],
+        "answer": 0,
+        "explanation": "Les biomes sont écologiques, pas linguistiques."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Photosynthèse",
+      "summary": "Dans les chloroplastes, l’énergie lumineuse est convertie en énergie chimique : production d’ATP/NADPH puis fixation du CO₂ en sucres (cycle de Calvin).",
+      "points": [
+        "Chloroplastes",
+        "ATP/NADPH",
+        "Fixation du CO₂"
+      ],
+      "quiz": {
+        "question": "Quel gaz est fixé pour produire des sucres ?",
+        "choices": [
+          "CO₂",
+          "O₂",
+          "N₂",
+          "CH₄"
+        ],
+        "answer": 0,
+        "explanation": "La photosynthèse intègre le dioxyde de carbone pour fabriquer des glucides."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Tableau périodique",
+      "summary": "Classé par numéro atomique, il révèle périodicités des propriétés : métaux, non-métaux, gaz nobles ; tendances d’électronégativité et rayons atomiques.",
+      "points": [
+        "Numéro atomique",
+        "Familles",
+        "Tendances périodiques"
+      ],
+      "quiz": {
+        "question": "Quel gaz est chimiquement très inerte ?",
+        "choices": [
+          "Néon",
+          "Chlore",
+          "Hydrogène",
+          "Sodium"
+        ],
+        "answer": 0,
+        "explanation": "Les gaz nobles (comme le néon) sont peu réactifs."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Optique géométrique",
+      "summary": "Les rayons lumineux obéissent aux lois de Snell-Descartes. Lentilles et miroirs forment images réelles/virtuelles, bases de la photographie et de l’optique.",
+      "points": [
+        "Réflexion/réfraction",
+        "Lentilles/miroirs",
+        "Images formées"
+      ],
+      "quiz": {
+        "question": "Quel instrument utilise une lentille convergente ?",
+        "choices": [
+          "Une loupe",
+          "Un miroir plan",
+          "Un prisme",
+          "Un diapason"
+        ],
+        "answer": 0,
+        "explanation": "La loupe grossit grâce à une lentille convergente."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Baroque européen",
+      "summary": "XVIIe siècle : dynamisme, contrastes, théâtralité (Caravage, Bernin). Architecture mouvementée, clairs-obscurs en peinture, émotions intenses.",
+      "points": [
+        "Dynamisme",
+        "Clairs-obscurs",
+        "Théâtralité"
+      ],
+      "quiz": {
+        "question": "Quel peintre illustre le clair-obscur baroque ?",
+        "choices": [
+          "Caravage",
+          "Manet",
+          "Matisse",
+          "Seurat"
+        ],
+        "answer": 0,
+        "explanation": "Caravage emploie des contrastes lumineux saisissants."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Le sonnet",
+      "summary": "Poème bref (14 vers) aux rimes organisées ; octave + sizain en français. Fréquent chez Du Bellay, Ronsard, jusqu’aux modernes.",
+      "points": [
+        "14 vers",
+        "Octave + sizain",
+        "Rimes organisées"
+      ],
+      "quiz": {
+        "question": "Combien de vers compte un sonnet ?",
+        "choices": [
+          "14",
+          "10",
+          "12",
+          "16"
+        ],
+        "answer": 0,
+        "explanation": "La définition canonique du sonnet est de 14 vers."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Méthode scientifique",
+      "summary": "Observation, hypothèse, expérimentation, analyse et réplication. La falsifiabilité rend une hypothèse testable et scientifique.",
+      "points": [
+        "Hypothèse testable",
+        "Expérimentation",
+        "Réplication"
+      ],
+      "quiz": {
+        "question": "Quel critère selon Popper distingue la science ?",
+        "choices": [
+          "Falsifiabilité",
+          "Éloquence",
+          "Popularité",
+          "Autorité"
+        ],
+        "answer": 0,
+        "explanation": "Une théorie scientifique doit pouvoir être réfutée par l’expérience."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Internet : protocoles",
+      "summary": "TCP/IP achemine les paquets ; DNS résout les noms ; HTTP(s) transporte les pages. Les couches abstraites facilitent l’interopérabilité mondiale.",
+      "points": [
+        "TCP/IP",
+        "DNS",
+        "HTTP(S)"
+      ],
+      "quiz": {
+        "question": "Quel protocole traduit un nom de domaine en adresse IP ?",
+        "choices": [
+          "DNS",
+          "SMTP",
+          "SSH",
+          "FTP"
+        ],
+        "answer": 0,
+        "explanation": "DNS fait la résolution de noms."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Calendrier grégorien",
+      "summary": "Adopté en 1582 pour corriger le glissement du calendrier julien : années bissextiles excluent les siècles non divisibles par 400.",
+      "points": [
+        "1582",
+        "Correction bissextile",
+        "Diffusion progressive"
+      ],
+      "quiz": {
+        "question": "Quelle année séculaire n’est pas bissextile ?",
+        "choices": [
+          "1900",
+          "2000",
+          "1600",
+          "2400"
+        ],
+        "answer": 0,
+        "explanation": "Seules les années divisibles par 400 restent bissextiles."
+      }
+    }
+  ]
+}

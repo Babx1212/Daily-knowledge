@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "day": 6,
+    "title": "Jour 6 — 10 capsules de culture générale"
+  },
+  "topics": [
+    {
+      "category": "Histoire",
+      "title": "Égypte antique : pharaons",
+      "summary": "Civilisation du Nil : pyramides, hiéroglyphes, cycle des crues ; centralité du pouvoir divin du pharaon.",
+      "points": [
+        "Nil et crues",
+        "Monuments",
+        "Pouvoir sacré"
+      ],
+      "quiz": {
+        "question": "Quelle écriture égyptienne sacrée ?",
+        "choices": [
+          "Hiéroglyphes",
+          "Cunéiforme",
+          "Alphabet grec",
+          "Rongo-rongo"
+        ],
+        "answer": 0,
+        "explanation": "Les hiéroglyphes ornaient temples et tombes."
+      }
+    },
+    {
+      "category": "Géographie",
+      "title": "Zones climatiques",
+      "summary": "Tropical, tempéré, polaire, aride, montagnard : la zonation découle surtout de la latitude et de la circulation atmosphérique.",
+      "points": [
+        "Zonation",
+        "Latitude",
+        "Circulation"
+      ],
+      "quiz": {
+        "question": "Quel climat près de l’équateur ?",
+        "choices": [
+          "Tropical",
+          "Polaire",
+          "Océanique froid",
+          "Subpolaire"
+        ],
+        "answer": 0,
+        "explanation": "L’équateur reçoit un ensoleillement fort et régulier."
+      }
+    },
+    {
+      "category": "Biologie",
+      "title": "Enzymes",
+      "summary": "Catalyseurs biologiques abaissant l’énergie d’activation ; spécificité de substrat ; sensibles à pH et température.",
+      "points": [
+        "Catalyse",
+        "Spécificité",
+        "Conditions"
+      ],
+      "quiz": {
+        "question": "Que font les enzymes sur l’énergie d’activation ?",
+        "choices": [
+          "L’abaissent",
+          "La suppriment",
+          "La doublent",
+          "Sans effet"
+        ],
+        "answer": 0,
+        "explanation": "Elles accélèrent les réactions en abaissant la barrière."
+      }
+    },
+    {
+      "category": "Chimie",
+      "title": "Équilibres chimiques",
+      "summary": "À l’équilibre, vitesses directe et inverse s’égalisent ; le quotient Q se compare à K pour prévoir l’évolution.",
+      "points": [
+        "Vitesses égales",
+        "Q vs K",
+        "Perturbations"
+      ],
+      "quiz": {
+        "question": "Si Q<K, le système…",
+        "choices": [
+          "Évolue vers les produits",
+          "Vers réactifs",
+          "Reste figé",
+          "Explose"
+        ],
+        "answer": 0,
+        "explanation": "Il avance dans le sens direct jusqu’à K."
+      }
+    },
+    {
+      "category": "Physique",
+      "title": "Relativité restreinte",
+      "summary": "Vitesse de la lumière constante ; dilatation du temps, contraction des longueurs ; E=mc².",
+      "points": [
+        "c constante",
+        "Temps dilaté",
+        "E=mc²"
+      ],
+      "quiz": {
+        "question": "Quelle grandeur est invariante ?",
+        "choices": [
+          "c (lumière)",
+          "Masse",
+          "Temps propre observable",
+          "Charge négative"
+        ],
+        "answer": 0,
+        "explanation": "La vitesse de la lumière est la même dans tous les référentiels inertiels."
+      }
+    },
+    {
+      "category": "Arts",
+      "title": "Art roman",
+      "summary": "XI–XIIe : arcs en plein cintre, murs épais, petites ouvertures ; décors sculptés bibliques.",
+      "points": [
+        "Plein cintre",
+        "Massivité",
+        "Sculptures"
+      ],
+      "quiz": {
+        "question": "Quelle voûte caractérise l’art roman ?",
+        "choices": [
+          "Plein cintre",
+          "Ogive",
+          "Cloisonnée",
+          "Lambrissée"
+        ],
+        "answer": 0,
+        "explanation": "Les arcs en plein cintre sont typiques."
+      }
+    },
+    {
+      "category": "Littérature",
+      "title": "Essai",
+      "summary": "Texte argumentatif explorant une thèse ; Montaigne instaure le genre moderne en français.",
+      "points": [
+        "Argumentation",
+        "Point de vue",
+        "Exploration"
+      ],
+      "quiz": {
+        "question": "Quel auteur associe-t-on aux Essais ?",
+        "choices": [
+          "Montaigne",
+          "Hugo",
+          "Camus",
+          "Proust"
+        ],
+        "answer": 0,
+        "explanation": "Montaigne fonde le genre en français."
+      }
+    },
+    {
+      "category": "Sciences sociales",
+      "title": "Marchés du travail",
+      "summary": "Offre de travail, demande d’entreprises, salaires d’équilibre ; frictions et institutions influencent l’ajustement.",
+      "points": [
+        "Offre/demande",
+        "Salaire d’équilibre",
+        "Frictions"
+      ],
+      "quiz": {
+        "question": "Une hausse du SMIC peut…",
+        "choices": [
+          "Réduire l’emploi si trop élevé",
+          "Toujours augmenter l’emploi",
+          "Ne rien changer jamais",
+          "Supprimer le chômage"
+        ],
+        "answer": 0,
+        "explanation": "Effets dépendants du niveau et du contexte."
+      }
+    },
+    {
+      "category": "Technologie",
+      "title": "Cloud : IaaS/PaaS/SaaS",
+      "summary": "Trois modèles de service : infrastructure, plateforme, logiciel ; mutualisation et élasticité des ressources.",
+      "points": [
+        "IaaS",
+        "PaaS",
+        "SaaS"
+      ],
+      "quiz": {
+        "question": "Quel modèle livre une application prête à l’emploi ?",
+        "choices": [
+          "SaaS",
+          "IaaS",
+          "PaaS",
+          "Bare metal"
+        ],
+        "answer": 0,
+        "explanation": "SaaS = software as a service."
+      }
+    },
+    {
+      "category": "Insolite",
+      "title": "Fourmis et superorganismes",
+      "summary": "Colonies fonctionnent comme un superorganisme : division du travail, phéromones, auto-organisation efficace.",
+      "points": [
+        "Phéromones",
+        "Division des tâches",
+        "Auto-organisation"
+      ],
+      "quiz": {
+        "question": "Quel signal chimique coordonne les fourmis ?",
+        "choices": [
+          "Phéromone",
+          "Insuline",
+          "ADR",
+          "CO₂"
+        ],
+        "answer": 0,
+        "explanation": "Les phéromones guident les comportements collectifs."
+      }
+    }
+  ]
+}
